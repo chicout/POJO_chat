@@ -1,0 +1,192 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	background-image: url(../images/tortoise.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: RGB(253, 253, 253);
+}
+
+#button {
+	overflow: hidden;
+	display: -moz-inline-stack;
+	display: inline-block;
+	padding: 0 1px;
+	margin-left: 10px;
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #767676;
+	cursor: pointer;
+	position: relative;
+}
+
+#floater {
+	float: left;
+	height: 50%;
+	width: 100%;
+	margin-bottom: -50px;
+}
+
+#child input {
+	border-radius: 15px;
+	height: 25px;
+	width: 20%;
+	margin-bottom: 10px;
+	margin-right: 20%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 150%;
+}
+
+#centered {
+	position: relative;
+	clear: left;
+	height: 400px;
+	width: 80%;
+	max-width: 800px;
+	min-width: 400px;
+	margin: 0 auto;
+	background: #fff;
+	border: 4px solid #666;
+	vertical-align: middle;
+}
+
+.cred input {
+	height: 20px;
+	width: 50%;
+	border-radius: 15px;
+	padding-left: 5%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.cred table {
+	width: 100%;
+	height: 100%;
+}
+.cred table tr td td{
+	width: 100%;
+	height: 100%;
+}
+#ex1 {
+	float: left;
+}
+
+#ex2 {
+	float: right;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#pop-up-window {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	z-index: 500;
+}
+
+#windowHeader {
+	height: 30px;
+	overflow: 30px;
+	background-image: url(images/window_top_end.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	cursor: move;
+}
+
+#windowTitle {
+	margin-right: 13px;
+	background-image: url(images/window_top_start.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+
+#btnClose {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+
+#windowRightSide {
+	position: relative;
+	height: 270px;
+	background-image: url(images/window_bottom_end.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+#windowLeftSide {
+	position: relative;
+	height: 270px;
+	background-image: url(images/window_bottom_start.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin-right: 13px;
+}
+
+#windowContent {
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-right: 10px;
+	border: 1px dashed #D8D8D8;
+	height: 255px;
+	width: 375px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	background-color: #878787;
+	color: #fff;
+}
+
+#windowContent * {
+	margin: 10px;
+}
+
+#windowContent a {
+	font-weight: 400;
+	color: #FF884C;
+}
+
+#showWindow {
+	width: 150px;
+	padding: 10px;
+	border: 1px dashed #D8D8D8;
+	background-color: #898989;
+	font-weight: 600;
+	color: #FF884C;
+	cursor: pointer;
+}
